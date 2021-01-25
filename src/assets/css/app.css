@@ -1,0 +1,61 @@
+@media only screen and (max-width: 550px) and (max-height: 800px) {
+
+body {
+  background:url('../img/bg_body.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rheadercorners {
+
+  background:url('../img/bg_menu.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  border-radius: 15px 50px;
+  padding: 20px;
+
+  /* Set up proportionate scaling */
+  width: auto;
+  height: 150px;
+
+  margin-top: 15%;
+  margin-left: 2%;
+  margin-right: 2%;;
+}
+
+.rbodycorners {
+
+  background: #fff no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /* position: relative; */
+
+  border-radius: 15px 50px;
+  padding: 20px;
+
+  /* Set up proportionate scaling */
+  width: auto;
+  height: auto;
+
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* margin-bottom: 2%; */
+}
+
+.imgavatar {
+   vertical-align: middle;
+   width: 75px;
+   height: 75px;
+   border-radius: 50%;
+}
+
+}
